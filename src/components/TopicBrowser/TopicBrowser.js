@@ -11,7 +11,7 @@ import Multiply from '../Topics/Multiply'
 export default class TopicBrowser extends Component {
     render() {
         return (
-        <div>
+        <div className="mainDiv">
             <EvenAndOdd />
             <FilterObject />
             <FilterString />

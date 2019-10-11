@@ -8,9 +8,21 @@ body {
   align-items: center;
   color: #fff;
   box-sizing: border-box;
+  width: 100vw;
 }
 
 /* Container Elements */
+
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+	align-items: stretch;
+  align-content: flex-start;
+  margin: 20px;  
+}
+
 .puzzleFeed {
   display: flex;
   flex-direction: column;
@@ -26,8 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px 0px;
-  margin-right: 0px;
+  margin: 20px;
 }
 
 .evenAndOddPB {
