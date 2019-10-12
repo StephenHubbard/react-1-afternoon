@@ -8,7 +8,7 @@ body {
   align-items: center;
   color: #fff;
   box-sizing: border-box;
-  width: 100vw;
+  width: 120vw;
 }
 
 /* Container Elements */
@@ -61,6 +61,14 @@ body {
   height: 270px;
 }
 
+.multiplyPB {
+  height: 270px;
+}
+
+.vowelCountPB {
+  height: 230px;
+}
+
 .resultsBox {
   width: 360px;
   height: 20px;
@@ -108,7 +116,7 @@ body {
   background-color: #4fc3f7;
   border: none;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   color: #ffffff;
 }
@@ -121,11 +129,12 @@ body {
 /* Text */
 h4 {
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 1.4;
   color: #ffffff;
   margin-top: 15px;
+  margin-bottom: 22px;
 }
 
 .puzzleText {

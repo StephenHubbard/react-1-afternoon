@@ -7,6 +7,7 @@ import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
 import Sum from '../Topics/Sum'
 import Multiply from '../Topics/Multiply'
+import VowelCount from '../Topics/VowelCount'
 
 export default class TopicBrowser extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class TopicBrowser extends Component {
             <Palindrome />
             <Sum />
             <Multiply />
+            <VowelCount />
         </div>
         )
     }
